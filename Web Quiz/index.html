@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Quiz Assessment</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- External Link used for highlighting right and wrong answers along with tick and cross-->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+    <div class="start_btn"><button>Click here to begin Assessment</button></div>
+    <div class="info_box">
+        <div class="info-title"><span>FOLLOW THE RULES | DO NOT SKIP</span></div>
+        <div class="info-list">
+            <div class="info">1. You will have only <strong>30 seconds</strong> per question.</div>
+            <div class="info">2.<strong> There are total 15 questions.</strong></div>
+            <div class="info">3.<strong> You cannot skip any question.</strong></div>
+            <div class="info">4.<strong> Donot refresh while answering</strong></div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Exit</button>
+            <button class="restart">Continue</button>
+        </div>
+    </div>
+    <div class="quiz_box">
+        <header>
+            <div class="title">Web Quiz Assessment | Timer at Right Top Corner</div>
+            <div class="timer">
+                <div class="time_left_txt"><strong>Time Left</strong></div>
+                <div class="timer_sec">30</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+            </div>
+            <div class="option_list">
+            </div>
+        </section>
+        <footer>
+            <div class="total_que">
+            </div>
+            <button class="next_btn">Save & Next</button>
+        </footer>
+    </div>
+    <div class="result_box">
+        <div class="complete_text">Done</div>
+        <div class="score_text">
+        </div>
+        <div class="buttons">
+            <button class="restart">Replay</button>
+            <button class="quit">Exit</button>
+        </div>
+    </div>
+    <script src="js/questions.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
